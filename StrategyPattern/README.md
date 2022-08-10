@@ -1,5 +1,5 @@
 # Strategy Pattern
-Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+Strategy Pattern là một trong những Pattern thuộc nhóm hành vi (Behavior Pattern). Nó cho phép định nghĩa tập hợp các thuật toán, đóng gói từng thuật toán lại, và dễ dàng thay đổi linh hoạt các thuật toán bên trong object. Strategy cho phép thuật toán biến đổi độc lập khi người dùng sử dụng chúng.
 
 ## Solution
 The Strategy pattern suggests that you take a class that does something specific in a lot of different ways and extract all of these algorithms into separate classes called strategies.
@@ -12,11 +12,24 @@ This way the context becomes independent of concrete strategies, so you can add 
 ## Class Diagram
 ![Class Diagram](https://refactoring.guru/images/patterns/diagrams/strategy/structure.png?id=c6aa910c94960f35d100bfca02810ea1)
 
+- Strategy : định nghĩa các hành vi có thể có của một Strategy.
+
+- ConcreteStrategy : cài đặt các hành vi cụ thể của Strategy.
+
+- Context : chứa một tham chiếu đến đối tượng Strategy và nhận các yêu cầu từ Client, các yêu cầu này sau đó được ủy quyền cho Strategy thực hiện.
+
+## Benifit
+- Đảm bảo nguyên tắc Single responsibility principle (SRP) : một lớp định nghĩa nhiều hành vi và chúng xuất hiện dưới dạng với nhiều câu lệnh có điều kiện. Thay vì nhiều điều kiện, chúng ta sẽ chuyển các nhánh có điều kiện liên quan vào lớp Strategy riêng lẻ của nó.
+
+- Đảm bảo nguyên tắc Open/Closed Principle (OCP) : chúng ta dễ dàng mở rộng và kết hợp hành vi mới mà không thay đổi ứng dụng.
+
+- Cung cấp một sự thay thế cho kế thừa.
+
 ## Applicability
-Use the Strategy pattern when you want to use different variants of an algorithm within an object and be able to switch from one algorithm to another during runtime.
+- Khi muốn có thể thay đổi các thuật toán được sử dụng bên trong một đối tượng tại thời điểm run-time.
 
-Use the Strategy when you have a lot of similar classes that only differ in the way they execute some behavior.
+- Khi có một đoạn mã dễ thay đổi, và muốn tách chúng ra khỏi chương trình chính để dễ dàng bảo trì.
 
-Use the pattern to isolate the business logic of a class from the implementation details of algorithms that may not be as important in the context of that logic.
+- Tránh sự rắc rối, khi phải hiện thực một chức năng nào đó qua quá nhiều lớp con.
 
-Use the pattern when your class has a massive conditional statement that switches between different variants of the same algorithm.
+- Cần che dấu sự phức tạp, cấu trúc bên trong của thuật toán.
