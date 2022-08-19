@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\Design Pattern\\StrategyPattern\\StrategyPattern.csproj": {}
+    "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\StrategyPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\Design Pattern\\StrategyPattern\\StrategyPattern.csproj": {
+    "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\StrategyPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Design Pattern\\StrategyPattern\\StrategyPattern.csproj",
+        "projectUniqueName": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\StrategyPattern.csproj",
         "projectName": "StrategyPattern",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Design Pattern\\StrategyPattern\\StrategyPattern.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\Design Pattern\\StrategyPattern\\obj\\",
+        "projectPath": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\StrategyPattern.csproj",
+        "packagesPath": "C:\\Users\\dekub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dekub\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,22 +45,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.22, 3.1.22]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
