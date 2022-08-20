@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\StrategyPattern.csproj",
-      "projectName": "StrategyPattern",
-      "projectPath": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\StrategyPattern.csproj",
+      "projectUniqueName": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\Strategy Pattern.csproj",
+      "projectName": "Strategy Pattern",
+      "projectPath": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\Strategy Pattern.csproj",
       "packagesPath": "C:\\Users\\dekub\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dekub\\OneDrive\\Documents\\IT\\.NET\\Design-Pattern\\StrategyPattern\\obj\\",
       "projectStyle": "PackageReference",

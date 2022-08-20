@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{FB128C87-9200-403E-8CA3-CED49BB20D6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy Pattern", "StrategyPattern\Strategy Pattern.csproj", "{FB128C87-9200-403E-8CA3-CED49BB20D6C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer Pattern", "Observer Pattern\Observer Pattern.csproj", "{3C97DDD7-C27F-40C0-A23C-D2B2F7ED4EC9}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton Pattern", "Single
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder Pattern", "Builder Pattern\Builder Pattern.csproj", "{63E4238C-52B0-499E-AA94-252CE5D5CD2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator Pattern", "Decorator Pattern\Decorator Pattern.csproj", "{77D7ECBC-2987-463D-8F1F-B9A8DA4EEB33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator Pattern", "Decorator Pattern\Decorator Pattern.csproj", "{77D7ECBC-2987-463D-8F1F-B9A8DA4EEB33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Pattern", "Factory Pattern\Factory Pattern.csproj", "{89C46C25-A315-4180-8BDF-DAB9E0714046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{77D7ECBC-2987-463D-8F1F-B9A8DA4EEB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D7ECBC-2987-463D-8F1F-B9A8DA4EEB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D7ECBC-2987-463D-8F1F-B9A8DA4EEB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C46C25-A315-4180-8BDF-DAB9E0714046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C46C25-A315-4180-8BDF-DAB9E0714046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C46C25-A315-4180-8BDF-DAB9E0714046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C46C25-A315-4180-8BDF-DAB9E0714046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
